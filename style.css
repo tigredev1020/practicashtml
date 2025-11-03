@@ -1,0 +1,25 @@
+/* los selectores CSS esprica cuales son los elementos que van a estar afectados por el estilo 
+tememos el selector de tipo, se va a peicar el estilo a al nombre del elemento es decir si escribimos input todos los elementos input se veran afectados*/
+label {
+    color: blueviolet;
+    background-color: rgb(226, 226, 226);
+    border: 3px;
+}
+
+li {
+    color: rgb(9, 240, 67);
+}
+
+/* el selector universal se usa con la stiqueta "*" con esta el estilo se va a poner en toda la página en este caso toda la letra de la página es de color marron*/
+/*
+
+* {
+    color: brown;
+    }
+*/
+
+/* el selector de clase va seleccionar todos los elementos que tengan esa clase */
+
+.parrafo {
+    color:red ;
+}
